@@ -1,0 +1,24 @@
+{
+  "name": "RoboRyan",
+  "version": "1.0.0",
+  "description": "A Twitterbot who has a few choice words for you.",
+  "main": "index.js",
+  "dependencies": {
+    "twitter-node-client": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhmorrow/RoboRyan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhmorrow/RoboRyan/issues"
+  },
+  "homepage": "https://github.com/rhmorrow/RoboRyan#readme"
+}
