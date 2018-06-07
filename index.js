@@ -12,12 +12,12 @@ const error = function (err, response, body) {
 };
 
 const success = function (data) {
-  console.log('Data [%s]', data);
+  console.log('Data [%s]', data[0].text);
 };
 
 const tweet = function() {
   const user = roboryan.findUser();
-  const message = user === "Ramsey" ? roboryan.compose(user, "mean") : roboryan.compose(user, "nice") 
+  const message = Math.random() > 0.5 ? roboryan.compose(user, "mean") : roboryan.compose(user, "nice") 
   twitter.postTweet({ status: message }, error, success)
 }
 
