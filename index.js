@@ -1,7 +1,7 @@
 //Callback functions
 const Twitter = require('twitter-node-client').Twitter;
 const RoboRyan = require("./roboryan");
-const config = require("./data/twitter_config.js");
+const config = require("./data/twitter_config");
 
 const roboryan = new RoboRyan();
 
